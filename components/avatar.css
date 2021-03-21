@@ -1,0 +1,42 @@
+.avatar_img_round {
+	border-radius: 50%;
+	max-width: 5rem;
+}
+
+.avatar_letter_round {
+	background-color: var(--light-grey);
+	width: var(--avatar-letter-size);
+	height: var(--avatar-letter-size);
+	border-radius: 50%;
+	text-align: center;
+}
+
+.avatar_letter {
+	font-size: calc(var(--avatar-letter-size) / 2);
+	line-height: 1;
+	position: relative;
+	top: calc( var(--avatar-letter-size) / 4);
+}
+
+.avatar_component > img {
+	margin: 1rem;
+}
+
+.avatar_component .badge_img > img {
+	margin: 1rem;
+}
+
+.badge_img {
+	position: relative;
+}
+
+.badge_round {
+	border-radius: 50%;
+	background-color: var(--green-yellow);
+	position: absolute;
+	height: 1rem;
+	width: 1rem;
+	bottom: 18%;
+	left: 66%;
+	border: 3px solid var(--white-color);
+}

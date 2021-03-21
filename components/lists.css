@@ -1,0 +1,23 @@
+.list_group {
+}
+
+.list_group_item {
+	padding: 1rem;
+}
+
+.stack_list_item {
+	display: inline-block;
+	margin-left: 1rem;
+}
+
+.stack_list_item_hr {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	background-color: var(--light-grey);
+	border: none;
+	height: 0.15rem;
+}
+
+.active_list {
+	color: var(--blue-color);
+}

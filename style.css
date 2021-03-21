@@ -1,0 +1,121 @@
+/* start of css common boiler plate code - setting default styles and variables */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+
+.modal {
+	border: 2px solid var(--light-grey);
+	max-width: 25%;
+	padding: 1rem 0rem 1rem 0rem;
+}
+
+.modal_title  h3 {
+	margin-left: 0.5rem;
+}
+
+
+
+
+
+/* end of css common boiler plate code - styles */
+
+
+@media screen and (min-width: 768px) {
+	.nav_bar {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		height: 70px;
+		align-items: center;
+	}
+
+	.main_nav {
+		display: flex;
+		margin-right: 30px;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+
+	.main_nav li {
+		margin: 0;
+	}
+
+	.nav_links {
+		color: var(--white-color);
+		margin-left: 40px;
+	}
+
+	.logo {
+		margin-top: 0;
+	}
+
+	.navbar_toggle {
+		display: none;
+	}
+
+	.fa-bars {
+		color: var(--white-color);
+	}
+}
+
+/* start of util styles */
+
+.apply_margin {
+	margin: 1rem;
+}
+
+.apply_margin_right {
+	margin-right: 1rem;
+}
+
+.apply_margin_left {
+	margin-left: 1rem;
+}
+
+.apply_flex {
+	display: flex;
+}
+
+.apply_padding {
+	padding: 1rem;
+}
+
+.apply_margin_padding {
+	padding: 1rem;
+	margin: 1rem;
+}
+
+.apply_flex > .btn {
+	margin: 1rem;
+}
+
+.apply_flex_wrap {
+	flex-wrap: wrap;
+}
+
+/* end of util styles */
+
+/* start of media queries */
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+/* end of media queries */
