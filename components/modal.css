@@ -1,0 +1,31 @@
+.modal {
+	border: 2px solid var(--light-grey);
+	/* max-width: 25%; */
+	width: 50%;
+	padding: 1rem 0rem 1rem 0rem;
+	position: relative;
+}
+
+.modal_title h3 {
+	margin-left: 0.5rem;
+}
+
+.btn_close {
+	position: absolute;
+	right: 0;
+	top: 2%;
+	margin-right: 0.5rem;
+	padding: 0.25rem 0.7rem 0.25rem 0.7rem;
+	background-color: var(--white-color);
+	border: none;
+	color: var(--red-color);
+	/* outline: none; */
+}
+
+.modal_content {
+	margin: 1rem;
+}
+
+.modal_footer {
+	margin-left: 1rem;
+}

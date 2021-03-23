@@ -11,23 +11,7 @@
 	box-sizing: border-box;
 }
 
-
-.modal {
-	border: 2px solid var(--light-grey);
-	max-width: 25%;
-	padding: 1rem 0rem 1rem 0rem;
-}
-
-.modal_title  h3 {
-	margin-left: 0.5rem;
-}
-
-
-
-
-
 /* end of css common boiler plate code - styles */
-
 
 @media screen and (min-width: 768px) {
 	.nav_bar {
@@ -65,6 +49,10 @@
 	.fa-bars {
 		color: var(--white-color);
 	}
+
+	.modal {
+		width: 55%;
+	}
 }
 
 /* start of util styles */
@@ -100,6 +88,10 @@
 
 .apply_flex_wrap {
 	flex-wrap: wrap;
+}
+
+.apply_margin > p {
+	margin-top: 1rem;
 }
 
 /* end of util styles */

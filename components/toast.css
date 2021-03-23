@@ -1,0 +1,32 @@
+.toast {
+	border: 3px solid var(--blue-color);
+	border-radius: 1rem;
+	max-width: 20rem;
+	/* padding: 1rem 0 1rem 1rem; */
+}
+
+.toast_header {
+	position: relative;
+}
+
+.toast_header,
+.toast_body {
+	padding: 1rem;
+}
+
+.toast_body {
+	padding: 2rem 1rem 2rem 1rem;
+}
+
+.btn_toast {
+	position: absolute;
+	top: 1;
+	color: var(--red-color);
+	border: none;
+	background-color: var(--white-color);
+	padding: 0;
+	margin-left: 4rem;
+}
+.toast span {
+	margin-left: 1rem;
+}

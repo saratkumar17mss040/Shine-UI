@@ -12,6 +12,8 @@
 	color: var(--orange-color);
 }
 
+
+
 .fa-check-circle {
 	color: var(--green-color);
 }
@@ -26,6 +28,14 @@
 
 .bg_red {
 	background-color: #fecaca;
+}
+
+.bg_green {
+	background-color: green;
+}
+
+.bg_red {
+	background-color: red;;
 }
 
 .fg_orange {

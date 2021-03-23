@@ -1,0 +1,15 @@
+.rating {
+	/* background-color: var(--light-grey); */
+	border: 2px solid var(--light-grey);
+	border-radius: 1rem;
+	max-width: 9rem;
+	padding: 1rem;
+}
+
+.checked {
+	color: var(--orange-color);
+}
+
+.fa-star:hover {
+	color: var(--orange-color);
+}
