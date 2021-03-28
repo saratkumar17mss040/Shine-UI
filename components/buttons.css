@@ -4,10 +4,11 @@
 	cursor: pointer;
 	border: none;
 	color: var(--white-color);
+	outline: none;
 }
 
 .btn:hover {
-	box-shadow: 5px 8px 5px 1px #c9c1c1ad;
+	box-shadow: 2px 4px 5px 1px #c9c1c1ad;
 }
 
 .btn_round {
@@ -25,7 +26,15 @@
 }
 
 .btn_primary {
+	border: 2px solid var(--blue-color);
 	background-color: var(--blue-color);
+}
+
+.btn_secondary {
+	border: 2px solid var(--blue-color);
+	color: var(--blue-color);
+	background-color: var(--white-color);
+	/* border-style: inset; */
 }
 
 .btn_success {
