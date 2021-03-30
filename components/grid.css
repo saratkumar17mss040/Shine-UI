@@ -3,8 +3,6 @@
 	grid-template-columns: 1fr 1fr;
 	background-color: var(--blue-color);
 	grid-row-gap: 1rem;
-	/* justify-items: center; */
-	/* max-width: 25rem; */
 }
 
 .apply_grid_col3 {
@@ -12,12 +10,10 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	background-color: var(--blue-color);
 	grid-row-gap: 1rem;
-	/* max-width: 35rem; */
 }
 
 .grid_item {
 	margin: 1rem;
 	padding: 1rem;
 	background-color: var(--light-grey);
-	/* justify-self: center; */
 }

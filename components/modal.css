@@ -19,7 +19,6 @@
 	background-color: var(--white-color);
 	border: none;
 	color: var(--red-color);
-	/* outline: none; */
 }
 
 .modal_content {

@@ -1,70 +1,54 @@
-/* start of nav bar */
-
 .nav_bar {
 	position: relative;
-	font-size: 0.1.2rem;
 	background-color: var(--black-color);
 	padding: 1rem;
+	font-size: 0.1.2rem;
 }
-
 .main_nav {
-	list-style-type: none;
 	display: none;
+	list-style-type: none;
 }
-
 .nav_links,
 .logo {
+	opacity: 70%;
 	text-decoration: none;
 	color: var(--white-color);
-	opacity: 70%;
 }
-
 .nav_links:hover,
 .logo:hover {
 	opacity: 100%;
 }
-
 .nav_links {
 	position: relative;
 }
-
 .main_nav li {
-	text-align: center;
 	margin: 1rem auto;
+	text-align: center;
 }
-
 .logo {
 	display: inline-block;
 	font-size: 1.2rem;
-	/* margin-top: 0.8rem; */
-	/* margin-left: 1.2rem; */
 }
-
 .navbar_toggle {
 	position: absolute;
 	right: 20px;
 	cursor: pointer;
 	color: var(--white-color);
-	/* color: var(--red-color); */
 	font-size: 1.4rem;
 }
-
 .product_link {
 	position: relative;
 }
-
 .product_drop_down_items {
 	display: none;
-	top: 100px;
-	min-width: 5rem;
-	z-index: 1;
 	position: absolute;
+	top: 100px;
+	z-index: 1;
+	min-width: 5rem;
 }
-
 .product_drop_down:hover .product_drop_down_items {
 	display: block;
 }
-
 .active {
 	display: block;
 }
