@@ -1,5 +1,8 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
-	/* background-color: var(-); */
 	padding: 0;
 	margin: 0;
 }
@@ -14,7 +17,6 @@ body {
 }
 
 .grid-container > * {
-	/* border: 2px solid black; */
 	padding: 1rem;
 }
 
@@ -24,9 +26,13 @@ body {
 
 .aside {
 	grid-area: aside;
-	border-top-right-radius: 3rem;
+	border-top-right-radius: 2rem;
 	padding: 2rem;
-	/* padding-left: 0; */
+	background-color: var(--black-color);
+	position: sticky;
+	left: 0;
+	top: 0;
+	height: 100vh;
 }
 
 .no_padding {
@@ -78,7 +84,6 @@ li {
 }
 
 .aside {
-	background-color: var(--black-color);
 }
 
 .get_started_link a {
@@ -124,5 +129,15 @@ li {
 
 	.component_content {
 		max-width: 100%;
+	}
+
+	.aside {
+		position: inherit;
+		border-top-right-radius: 0;
+	}
+
+	.aside li {
+		margin-left: 1rem;
+		font-size: 1.2rem;
 	}
 }

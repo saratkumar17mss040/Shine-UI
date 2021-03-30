@@ -14,6 +14,8 @@
 @import './text.css';
 @import './toast.css';
 
+@import './utils/utils.css';
+
 :root {
 	font-family: 'Poppins', sans-serif;
 	--avatar-letter-size: 5rem;

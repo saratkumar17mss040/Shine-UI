@@ -1,6 +1,5 @@
 .modal {
 	border: 2px solid var(--light-grey);
-	/* max-width: 25%; */
 	width: 50%;
 	padding: 1rem 0rem 1rem 0rem;
 	position: relative;
@@ -27,4 +26,10 @@
 
 .modal_footer {
 	margin-left: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+	.modal {
+		width: 55%;
+	}
 }
