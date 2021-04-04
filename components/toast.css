@@ -2,7 +2,7 @@
 	border: 3px solid var(--blue-color);
 	border-radius: 1rem;
 	max-width: 20rem;
-	box-shadow: 10px 8px 5px 1px #c9c1c1ad;
+	box-shadow: 10px 8px 5px 1px var(--box-shadow-color);
 }
 
 .toast_header {

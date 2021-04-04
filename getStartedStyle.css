@@ -42,21 +42,11 @@ body {
 .main {
 	grid-area: main;
 	background-color: var(--white-color);
-	/* height: 100vh; */
 }
 
 .footer {
 	grid-area: footer;
 	background-color: var(--white-color);
-}
-
-/* ul {
-	text-align: center;
-	margin: 0 auto;
-} */
-
-li {
-	/* list-style: none; */
 }
 
 .apply_margin {
@@ -100,7 +90,6 @@ li {
 
 .apply_margin {
 	margin-bottom: 1rem;
-	/* margin-left: 2rem; */
 }
 
 .apply_margin h1 {
@@ -145,7 +134,6 @@ li {
 	}
 
 	.aside li {
-		/* margin-left: 1rem; */
 		text-align: center;
 		font-size: 2rem;
 		padding-top: 1rem;

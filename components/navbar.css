@@ -26,7 +26,12 @@
 	position: relative;
 }
 
-.main_nav li {
+/* .main_nav li {
+	margin: 1rem auto;
+	text-align: center;
+} */
+
+.nav_list_item {
 	margin: 1rem auto;
 	text-align: center;
 }
@@ -58,11 +63,6 @@
 	min-width: 5rem;
 }
 
-/* .product_drop_down:hover .product_drop_down_items {
-	display: block;
-} */
-
-
 .active {
 	display: block !important;
 }
@@ -83,7 +83,11 @@
 		justify-content: flex-end;
 	}
 
-	.main_nav li {
+	/* .main_nav li {
+		margin: 0;
+	} */
+
+	.nav_list_item {
 		margin: 0;
 	}
 
@@ -104,5 +108,4 @@
 	.fa-bars {
 		color: var(--white-color);
 	}
-
 }

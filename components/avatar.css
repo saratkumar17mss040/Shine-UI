@@ -18,13 +18,13 @@
 	top: calc( var(--avatar-letter-size) / 4);
 }
 
-.avatar_component > img {
+/* .avatar_component > img {
 	margin: 1rem;
 }
 
 .avatar_component .badge_img > img {
 	margin: 1rem;
-}
+} */
 
 .badge_img {
 	position: relative;

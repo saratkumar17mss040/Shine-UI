@@ -1,5 +1,4 @@
 .rating {
-	/* background-color: var(--light-grey); */
 	border: 2px solid var(--light-grey);
 	border-radius: 1rem;
 	max-width: 9rem;

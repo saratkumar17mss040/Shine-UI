@@ -3,13 +3,13 @@
 	width: 50%;
 	padding: 1rem 0rem 1rem 0rem;
 	position: relative;
-    box-shadow: 10px 8px 5px 1px #c9c1c1ad;
+    box-shadow: 10px 8px 5px 1px var(--box-shadow-color);
 }
 
 
-.modal_title h3 {
+/* .modal_title h3 {
 	margin-left: 0.5rem;
-}
+} */
 
 .btn_close {
 	position: absolute;
@@ -22,13 +22,13 @@
 	color: var(--red-color);
 }
 
-.modal_content {
+/* .modal_content {
 	margin: 1rem;
 }
 
 .modal_footer {
 	margin-left: 1rem;
-}
+} */
 
 @media screen and (min-width: 768px) {
 	.modal {
