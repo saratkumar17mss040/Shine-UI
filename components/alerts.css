@@ -25,15 +25,11 @@
 }
 
 .bg_red {
-	background-color: #fecaca;
+	background-color: var(--red-color);
 }
 
 .bg_green {
-	background-color: green;
-}
-
-.bg_red {
-	background-color: red;;
+	background-color: var(--green-color);
 }
 
 .fg_orange {
@@ -49,6 +45,25 @@
 }
 
 .bg_black {
-	/* background-color: var(--black-color); */
-	border: 2px solid lightgray;
+	border: 2px solid var(--light-grey);
+}
+
+.bg_light_red {
+	background-color: var(--light-red-color);
+}
+
+.bg_light_blue {
+	background-color: var(--light-blue-color);
+}
+
+.bg_light_green {
+	background-color: var(--light-green-color);
+}
+
+.bg_light_orange {
+	background-color: var(--light-orange-color);
+}
+
+.bg_light_yellow {
+	background-color: var(--light-yellow-color);
 }

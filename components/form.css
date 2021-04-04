@@ -1,5 +1,3 @@
-/* start of input */
-
 .form_control {
 	display: block;
 	padding: 0.5rem 1.5rem 0.5rem 1.5rem;
@@ -14,6 +12,4 @@
 	border: 4px solid var(--blue-color);
 }
 
-.form_control:invalid {
-	/* border: 3px solid var(--red-color); */
-}
+

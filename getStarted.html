@@ -18,7 +18,10 @@
 	<body>
 		<div class="grid-container">
 			<nav class="aside">
-				<ul class="ul_component_items no_padding apply_margin">
+				<span class="navbar_toggle2 navbar_toggler2">
+					<i class="fas fa-bars"></i>
+				</span>
+				<ul class="ul_component_items no_padding apply_margin nav_menu2">
 					<li><a href="#alerts">Alerts</a></li>
 					<li><a href="#avatar">Avatar</a></li>
 					<li><a href="#badge">Badge</a></li>
@@ -43,6 +46,43 @@
 							<a href="./index.html">Shine-UI ⭐</a>
 						</li>
 					</h1>
+
+					<!-- start of css link -->
+					<h1>CSS</h1>
+					<p class="component_content mb_1">
+						Copy-paste the stylesheet into your head tag before all other
+						stylesheets to load 🌟Shine-UI css.
+					</p>
+
+					<p class="component_content mb_1">
+						Unminified version with direct imports for components
+					</p>
+
+					<pre
+						class="mb_1"
+					><code class="language-markup"><script type="language-html"><link rel="stylesheet" href="https://saratkumar17mss040.github.io/Shine-UI/components/components.css" crossorigin="anonymous"></script></code></pre>
+
+					<p class="component_content mb_1">
+						Minified version with css for all components
+					</p>
+
+					<pre
+						class="mb_1"
+					><code class="language-markup"><script type="language-html"><link rel="stylesheet" href="https://saratkumar17mss040.github.io/Shine-UI/components/components.min.css" crossorigin="anonymous"></script></code></pre>
+
+					<h1>JS</h1>
+
+					<p class="component_content mb_1">
+						Javascript for functionalities of all components. Copy-paste the
+						script tag before your body tag
+					</p>
+
+					<pre
+						class="mb_1"
+					><code class="language-markup"><script type="language-html"><script  src="https://saratkumar17mss040.github.io/Shine-UI/components/js/components.min.js" crossorigin="anonymous"></script></code></pre>
+
+					<!-- end of css link -->
+
 					<h1>Documentation</h1>
 					<h2>Components</h2>
 					<p class="h3" id="alerts">Alerts</p>
@@ -54,56 +94,54 @@
 
 				<!-- start of  alerts -->
 				<div class="apply_margin">
-					<div class="alert bg_black apply_padding">
+					<div class="alert bg_light_red apply_padding" role="alert">
 						<i class="fas fa-exclamation-circle"></i>
 						<span class="fg_red">This is an error alert - check it out!</span>
 					</div>
 				</div>
 
 				<div class="apply_margin">
-					<div class="alert bg_black apply_padding">
+					<div class="alert bg_light_orange apply_padding" role="alert">
 						<i class="fas fa-exclamation-triangle"></i>
 						<span class="fg_orange"
-							>This is a warning alert — check it out!
+							>This is a warning alert - check it out!
 						</span>
 					</div>
 				</div>
 
 				<div class="apply_margin">
-					<div class="alert bg_black apply_padding">
+					<div class="alert bg_light_blue apply_padding" role="alert">
 						<i class="fas fa-info-circle"></i>
-						<span class="fg_blue">This is an info alert — check it out! </span>
+						<span class="fg_blue">This is an info alert - check it out! </span>
 					</div>
 				</div>
 
 				<div class="apply_margin">
-					<div class="alert bg_black apply_padding">
+					<div class="alert bg_light_green apply_padding" role="alert">
 						<i class="fas fa-check-circle"></i>
 						<span class="fg_green"
-							>This is a success alert — check it out!
+							>This is a success alert - check it out!
 						</span>
 					</div>
 				</div>
 				<!-- end of alerts -->
 
 				<div class="apply_margin">
-					<pre><code class="language-markup"><script type="language-html"><div class="alert bg_black apply_padding">
+					<pre><code class="language-markup"><script type="language-html"><div class="alert bg_black apply_padding" role="alert">
   <i class="fas fa-exclamation-circle"></i>
   <span class="fg_red">This is an error alert - check it out!</span>
 </div>
-<div class="alert bg_black apply_padding">
+<div class="alert bg_black apply_padding" role="alert">
   <i class="fas fa-exclamation-triangle"></i>
   <span class="fg_orange">This is a warning alert — check it out</span>
 </div>
-<div class="alert bg_black apply_padding">
+<div class="alert bg_black apply_padding" role="alert">
   <i class="fas fa-info-circle"></i>
   <span class="fg_blue">This is an info alert — check it out! </span>
 </div>
-<div class="alert bg_black apply_padding">
+<div class="alert bg_black apply_padding" role="alert">
   <i class="fas fa-check-circle"></i>
-  <span class="fg_green"
-    >This is a success alert — check it out!
-  </span>
+  <span class="fg_green">This is a success alert — check it out!</span>
 </div></script></code></pre>
 				</div>
 				<div class="apply_margin">
@@ -1058,14 +1096,14 @@
 				<!-- start of navbar -->
 				<div class="apply_margin">
 					<nav class="nav_bar">
-						<span class="navbar_toggle" id="navbar_toggler">
-							<i class="fas fa-bars"></i>
+						<span class="navbar_toggle navbar_toggler">
+							<i class="fas fa-bars fa-bar-icon"></i>
 						</span>
 						<a href="#" class="logo">🌟Shine-UI</a>
-						<ul class="main_nav" id="nav_menu">
+						<ul class="main_nav nav_menu">
 							<li><a href="#" class="nav_links">Home</a></li>
-							<div class="product_drop_down">
-								<!-- <li>
+							<!-- <div class="product_drop_down"> -->
+							<!-- <li>
 								<a href="#" class="nav_links product_link"
 									>Products <i class="fa fa-caret-down"></i
 								></a>
@@ -1074,8 +1112,8 @@
 									<a href="#">Clothes</a>
 									<a href="#">Toys</a>
 								</div> -->
-								<!-- </li> -->
-							</div>
+							<!-- </li> -->
+							<!-- </div> -->
 							<li><a href="#" class="nav_links">Cart</a></li>
 							<li><a href="#" class="nav_links">Wishlist</a></li>
 						</ul>

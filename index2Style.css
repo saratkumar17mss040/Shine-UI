@@ -33,10 +33,11 @@
 	padding: 2rem;
 }
 
-.button_wrapper > button {
+.button_wrapper > a {
 	/* margin-right: 0.5rem; */
 	width: 100%;
 	margin-top: 1rem;
+	text-decoration: none;
 }
 
 button a {
@@ -52,5 +53,15 @@ button a {
 
 	.hero_img {
 		max-width: 17rem;
+	}
+
+	/* .button_wrapper {
+		display: flex;
+		flex-direction: column;
+	} */
+
+	.button_wrapper > a {
+		display: flex;
+		flex-direction: column;
 	}
 }

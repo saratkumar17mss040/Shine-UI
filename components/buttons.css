@@ -1,10 +1,8 @@
 .btn {
-	/* border: 2px solid lightgray; */
 	padding: 0.5rem 1rem 0.5rem 1rem;
 	cursor: pointer;
 	border: none;
 	color: var(--white-color);
-	outline: none;
 }
 
 .btn:hover {
@@ -34,7 +32,6 @@
 	border: 2px solid var(--blue-color);
 	color: var(--blue-color);
 	background-color: var(--white-color);
-	/* border-style: inset; */
 }
 
 .btn_success {

@@ -3,7 +3,9 @@
 	width: 50%;
 	padding: 1rem 0rem 1rem 0rem;
 	position: relative;
+    box-shadow: 10px 8px 5px 1px #c9c1c1ad;
 }
+
 
 .modal_title h3 {
 	margin-left: 0.5rem;
