@@ -1,0 +1,27 @@
+.badge_round_icon {
+	display: inline-block;
+	position: absolute;
+	background-color: var(--light-grey);
+	min-width: 1.5rem;
+	min-height: 1rem;
+	border-radius: calc(var(--badge-text-size));
+	border-radius: 50%;
+	text-align: center;
+}
+
+.badge_letter {
+	font-size: calc(var(--badge-text-size) / 3);
+	position: relative;
+	top: calc(var(--badge-text-size) / 8);
+	top: -25%;
+	left: 55%;
+}
+
+.badge_round_for_badge {
+	border-radius: 50%;
+	background-color: var(--orange-color);
+	position: absolute;
+	bottom: 2%;
+	left: 66%;
+	border: 3px solid var(--white-color);
+}

@@ -1,0 +1,15 @@
+.form_control {
+	display: block;
+	padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+	margin-top: 1rem;
+}
+
+.form_control:required:valid {
+	border: 4px solid var(--green-color);
+}
+
+.form_control:focus {
+	border: 4px solid var(--blue-color);
+}
+
+

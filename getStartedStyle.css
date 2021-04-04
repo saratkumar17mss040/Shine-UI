@@ -1,0 +1,163 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas:
+		'nav nav nav'
+		'aside main main'
+		'aside main main'
+		'aside footer footer';
+}
+
+.grid-container > * {
+	padding: 1rem;
+}
+
+.grid-container .nav {
+	grid-area: nav;
+}
+
+.aside {
+	grid-area: aside;
+	border-top-right-radius: 2rem;
+	padding: 2rem;
+	background-color: var(--black-color);
+	position: sticky;
+	left: 0;
+	top: 0;
+	height: 100vh;
+}
+
+.no_padding {
+	padding: 0;
+}
+
+.main {
+	grid-area: main;
+	background-color: var(--white-color);
+}
+
+.footer {
+	grid-area: footer;
+	background-color: var(--white-color);
+}
+
+.apply_margin {
+	margin: 1rem;
+}
+
+.apply_margin_left_top {
+	margin-left: 2rem;
+	margin-top: 1.025rem;
+}
+
+.ul_component_items > li {
+	font-weight: bold;
+	margin-top: 1.5rem;
+	list-style: none;
+}
+
+.ul_component_items > li a {
+	text-decoration: none;
+	color: var(--white-color);
+}
+
+.ul_component_items > li a:hover {
+	color: var(--orange-color);
+}
+
+.aside {
+}
+
+.get_started_link a {
+	text-decoration: none;
+}
+
+.get_started_link a:hover {
+	color: var(--orange-color);
+}
+
+.get_started_link {
+	list-style: none;
+}
+
+.apply_margin {
+	margin-bottom: 1rem;
+}
+
+.apply_margin h1 {
+	margin-bottom: 1rem;
+}
+
+.apply_margin_top {
+	margin-top: 1rem;
+}
+
+.component_content {
+	max-width: 60%;
+	line-height: 1.5rem;
+	letter-spacing: 0.055em;
+}
+
+.fa-bar-icon {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.grid-container {
+		display: grid;
+		grid-template-areas:
+			'nav nav nav'
+			'aside aside aside'
+			'main main main'
+			'footer footer footer';
+	}
+
+	.component_content {
+		max-width: 100%;
+	}
+
+	.ul_component_items {
+		display: none;
+	}
+
+	.aside {
+		position: inherit;
+		border-top-right-radius: 0;
+	}
+
+	.aside li {
+		text-align: center;
+		font-size: 2rem;
+		padding-top: 1rem;
+	}
+
+	.apply_margin_left_top {
+		margin-left: 0;
+	}
+
+	.aside {
+		height: 100%;
+	}
+
+	.navbar_toggle2 {
+		position: static;
+	}
+
+	.fas.fa-bars {
+		font-size: 2.5rem;
+		color: var(--white-color);
+	}
+
+	.fa-bar-icon {
+		font-size: 1rem !important;
+		display: block;
+	}
+}

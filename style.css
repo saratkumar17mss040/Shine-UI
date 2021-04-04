@@ -1,0 +1,41 @@
+/* start of css common boiler plate code - setting default styles and variables */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.apply_margin > p {
+	margin-top: 1rem;
+}
+
+.apply_flex > .btn {
+	margin: 1rem;
+}
+
+/* end of css common boiler plate code - styles */
+
+/* start of media queries */
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+/* end of media queries */
